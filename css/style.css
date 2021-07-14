@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: rgb(51,51,51);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+
+article {
+  align-items: center;
+}
+
+#profile-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-pic img {
+  position: relative;
+  margin-top: -50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  padding: 0;
+}
+
+.total h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 27px;
+}
+
+
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gamebox {
+  display: flex;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 70%;
+  padding: 15px;
+  align-items: flex-start;
+  margin-bottom: 0;
+
+}
+
+.imagens {
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.gamebox img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.gamebox .description {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80%;
+}
+
+.gamebox h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(66, 180, 214);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 32px;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.titulos {
+  color: rgb(230, 181, 11);
+  background-color: rgba(230, 181, 11, 0.1);
+  font-size: 16px;
+  padding: 3px;
+  margin: 2px;
+}
+
+.temporada {
+  display: block;
+  margin: none;
+  padding: none;
+  animation: anim 1s;
+}
+
+.titulos.nenhum {
+  font-size: 16px;
+  padding: 3px;
+  margin: 2px;
+}
+
+@keyframes anim {
+  from{
+    transform: translateY(30%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 27px;
+  color: rgb(66, 180, 214);
+  margin: 10px 0;
+}
+
+.temporada .mark {
+  font-size: 16px;
+}
+
+.partida {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  padding: 0;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.partida img {
+  width: 25%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.partida .jogodesc {
+  width: 75%;
+  margin-left: 15px;
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.dia {
+  font-size: 14px;
+  color: gray;
+}
+
+.jogodesc p {
+  line-height: 28px;
+  margin: 0
+}
+
+select {
+  background-color: rgba(66, 180, 214, 0.05);
+  border-color: rgba(66, 180, 214, 0.5);
+  outline: none;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+}
